@@ -35,6 +35,9 @@ Several new features were engineered to enhance the dataset for machine learning
 - Class 0 has lower precision and recall, suggesting challenges in correctly identifying instances of this class.
 - Class 2 shows a relatively balanced performance with decent precision, recall, and F1-score.
 - Overall accuracy 81%
+# Stratified k-fold Cross-Validation
+- The cross-validation scores indicate the accuracy of the model across different folds
+- In this case, the mean accuracy is approximately 81.57%, suggesting that the model performs consistently well across different subsets of the data.
 # Key Findings:
 - The analysis identified interesting features, such as password length and lowercase character frequency, that contribute significantly to password strength.
 - The logistic regression model achieved a certain level of accuracy(81%) in classifying passwords into different strength categories.
